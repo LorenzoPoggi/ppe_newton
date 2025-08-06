@@ -1,4 +1,4 @@
-# ----- Codigo DS1306 ------
+# ----- Codigo DS1302 ------
 from machine import Pin
 import time
 
