@@ -1,0 +1,29 @@
+# dailies
+
+En este directorio van los informes de reuniones diarias. Pueden tener el siguiente template como referencia:
+
+```markdown
+# Reunión diaria \#XX - DD/MM/AA
+
+## Miembros presentes
+
+* [ ] 
+* [ ] 
+* [ ]
+
+## Trabajo actual
+
+Describir brevemente el estado actual del trabajo.
+
+## Expectativa del día
+
+Describir los objetivos para cada integrante
+
+## Observaciones
+
+Cualquier observación que haya del día
+```
+
+## Convenciones
+
+Nombrar los archivos como `daily-xx` reemplazando xx por el número de daily que corresponda.
