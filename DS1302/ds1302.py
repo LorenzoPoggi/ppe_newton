@@ -1,8 +1,6 @@
-# ----- Codigo DS1302 ------
 from machine import Pin
 import time
 
-# DS1302 registers
 DS1302_REG_SECOND = (0x80)
 DS1302_REG_MINUTE = (0x82)
 DS1302_REG_HOUR   = (0x84)
@@ -129,23 +127,3 @@ class DS1302:
             return self._get_reg(DS1302_REG_RAM + 1 + (reg % 31)*2)
         else:
             self._wr(DS1302_REG_RAM + (reg % 31)*2, dat)
-
-# Initialize DS1302 RTC with specified pins (clk, dio, cs)
-ds = DS1302(Pin(0), Pin(1), Pin(2))
-
-# Solo descomenta la siguiente línea si quieres poner la hora desde cero:
-# Setear fecha y hora: [año, mes, día, día_semana, hora, minuto, segundo]
-# ds.date_time([2025, 7, 2, 3, 10, 12, 10])  # Setear solo una vez
-
-try:
-    while True:
-        dt = ds.date_time()
-        if dt is not None:
-            print("Fecha: {:04d}-{:02d}-{:02d} (Dia de semana: {}) Hora: {:02d}:{:02d}:{:02d}".format(
-                dt[0], dt[1], dt[2], dt[3], dt[4], dt[5], dt[6]
-            ))
-        else:
-            print("Error leyendo la fecha y hora del DS1302")
-        time.sleep(1)
-except KeyboardInterrupt:
-    print("Finalizando...")
