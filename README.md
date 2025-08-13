@@ -6,6 +6,8 @@ Repositorio para las prácticas profesionalizantes externas desarrolladas en New
 | --------------------- |
 | Albornoz Thiago       |
 | Erbino Sebastían      |
+|  Herrera Eugenio      |
 |   Poggi Lorenzo       |
+|  Zaccari Valentin     |
 
 ---
