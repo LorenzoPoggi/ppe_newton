@@ -23,11 +23,11 @@ ds_rtc = ds1302.DS1302(Pin(0), Pin(1), Pin(5))
 sensor_acs712 = acs712.ACS712(pin=28, sensitivity=0.185)
 
 # Configuracion tarjeta SD
-cs = Pin(13, Pin.OUT) 
-sck = Pin(10)         
-mosi = Pin(11)      
-miso = Pin(12)        
-spi = SPI(1, baudrate=1000000, polarity=0, phase=0, sck=sck, mosi=mosi, miso=miso)
+cs = Pin(17, Pin.OUT) 
+sck = Pin(18)         
+mosi = Pin(19)      
+miso = Pin(16)        
+spi = SPI(0, baudrate=1000000, polarity=0, phase=0, sck=sck, mosi=mosi, miso=miso)
 
 try:
     # Inicializaxion de la tarjeta SD y del sistema de archivos
