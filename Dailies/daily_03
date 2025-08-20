@@ -1,0 +1,19 @@
+# Reunión diaria \#01 - 20/08/2025
+
+## Miembros presentes
+
+* [ ] Albornoz Thiago
+* [ ] Erbino Sebastían
+* [ ] Poggi Lorenzo
+* [ ] Valentin Zaccari
+* [ ] Eugenio Herrera
+
+## Trabajo actual
+
+- Integramos el funcionamiento del sensor ACS712 junto a los otros sensores.
+- Comprobamos el funcionamiento de la tarjeta micro SD.
+- Conectamos todo en el protoboard.
+
+## Expectativa del día
+
+- Terminar el funcionamiento completo del datalogger.

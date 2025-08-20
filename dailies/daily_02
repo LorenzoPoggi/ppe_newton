@@ -2,20 +2,20 @@
 
 ## Miembros presentes
 
-•⁠  ⁠[ ] Albornoz Thiago
-•⁠  ⁠[ ] Erbino Sebastían
-•⁠  ⁠[ ] Poggi Lorenzo
-•⁠  ⁠[ ] Valentin Zaccari
-•⁠  ⁠[ ] Eugenio Herrera
+* [ ] Albornoz Thiago
+* [ ] Erbino Sebastían
+* [ ] Poggi Lorenzo
+* [ ] Valentin Zaccari
+* [ ] Eugenio Herrera
 
 ## Trabajo actual
 
-•⁠  ⁠Conseguimos el funcionamiento basico del Datalogger
-•⁠  ⁠Ensamblamos todos los sensores a la Raspberry Pi Pico.
-•⁠  ⁠Empezamos con la placa SMD.
+- Conseguimos el funcionamiento basico del Datalogger
+- Ensamblamos todos los sensores a la Raspberry Pi Pico.
+- Empezamos con la placa SMD.
 
 ## Expectativa del día
 
-•⁠  ⁠Aprender a como hacer una placa SMD
-•⁠  ⁠Entender el algoritmo de los sensores. 
-•⁠  ⁠Poder hacer todas las conexiones de los componentes a la Pico.
+- Aprender a como hacer una placa SMD
+- Entender el algoritmo de los sensores. 
+-  Poder hacer todas las conexiones de los componentes a la Pico.
