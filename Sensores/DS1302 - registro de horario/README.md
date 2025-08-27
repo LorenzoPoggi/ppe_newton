@@ -10,16 +10,6 @@ El DS1302 se emplea para registrar la hora y fecha exacta en que comienzan a obs
 
 Además, contar con una referencia temporal ayuda a documentar mejor los experimentos y validar posibles hipótesis sobre el deterioro del LED en el tiempo.
 
-# Conexiones aplicadas para el uso ⚙️
-
-| Conexiones       | DS1302 | Raspberry Pi Pico |
-| :--------------- | :----- | :---------------- |
-| Alimentación     | VCC    | VSYS (Pin 39)     |
-| Tierra           | GND    | GND (Pin 38)      |
-| Reloj (CLK)     | CLK     | GPIO 18 (Pin 24)  |
-| Datos (DAT)     | DAT     | GPIO 17 (Pin 22)  |
-| RST              | RST    | GPIO  16 (Pin 21)  |
-
 # Imagen de las Conexiones 📱
 
 ![](img/pinout.jpg)

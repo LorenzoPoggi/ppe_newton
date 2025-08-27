@@ -14,14 +14,6 @@ Esto permite identificar variaciones en el consumo que puedan estar relacionadas
 
 Al correlacionar estos datos con la temperatura y humedad (DHT11), temperatura puntual (MAX6675) y la marca de tiempo (DS1302), es posible **detectar patrones de funcionamiento que expliquen por qué la pasta del LED se desuelda** bajo ciertas condiciones.
 
-# Conexiones aplicadas para el uso ⚙️
-
-| Conexiones     | ACS712  | Raspberry Pi Pico |
-| :------------- | :------ | :---------------- |
-| Alimentación   | VCC     | 3V (Pin 36)       |
-| Tierra         | GND     | GND (Pin 23)      |
-| Salida analógica | OUT   | GP26 (ADC0) (Pin 31)       |
-
 # Imagen del sensor
 
 ![](img/sensor-de-corriente-30a-efecto-hall-acs712-arduino.jpg)

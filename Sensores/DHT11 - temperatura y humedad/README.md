@@ -6,15 +6,6 @@ es un sensor digital que mide temperatura y humedad relativa del ambiente. Utili
 
 Este sensor se encarga de medir la temperatura y la humedad del ambiente para registrar las variaciones que afectan al LED SMD. El objetivo es determinar por qué, después de cierto tiempo, las soldaduras tienden a despegarse, a pesar de que esto solo debería ocurrir a temperaturas muy elevadas, las cuales se considera poco probable que se alcancen en condiciones normales.
 
-# Conexiones aplicadas para el uso 
-
-| Conexiones | DHT11       | Raspberry Pi Pico |
-|:------------|:-------------|:-----------------|
-| Alimentación | VCC     | VSYS (Pin 39)       |
-| Datos        | DATA  | GP15 (Pin 20)      |
-| Tierra       | GND    | GND (Pin 38)       |
-
-
 # Imagen de las Conexiones
 
 ![](img/Conexiones%20Raspberry%20y%20DHT11.png)

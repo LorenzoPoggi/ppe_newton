@@ -9,17 +9,6 @@ Estos registros incluyen temperatura ambiente, humedad relativa, temperatura, co
 
 Tras el periodo de medición, los datos son extraídos y procesados para generar gráficos y calcular parámetros. Esto permite **analizar las condiciones que provocan que la pasta del LED del microscopio se desuelde**, correlacionando las variables ambientales con los fallos observados.
 
-# Conexiones aplicadas para el uso ⚙️
-
-| Conexiones        | MicroSD Module | Raspberry Pi Pico |
-| :---------------- | :------------- | :---------------- |
-| Alimentación      | VCC            | VSYS (Pin 39)       |
-| Tierra            | GND            | GND (Pin 38)      |
-| Datos de salida   | MISO           | GP4 (SPI0 RX) (Pin 6)   |
-| Datos de entrada  | MOSI           | GP3 (SPI0 TX) (Pin 5)   |
-| Reloj SPI         | SCK            | GP2 (SPI0 SCK) (Pin 4) |
-| Selección de chip | CS             | GP5 (SPI0 CSn)  (Pin 7) |
-
 # Imagen del Adaptador 
 
 ![](img/microcardadapter.jpeg)
