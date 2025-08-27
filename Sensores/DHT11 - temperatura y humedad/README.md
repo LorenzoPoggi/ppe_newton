@@ -10,8 +10,8 @@ Este sensor se encarga de medir la temperatura y la humedad del ambiente para re
 
 | Conexiones | DHT11       | Raspberry Pi Pico |
 |:------------|:-------------|:-----------------|
-| Alimentación | VCC     | 3V3 (Pin 36)       |
-| Datos        | DATA  | GP15 (Pin 21)      |
+| Alimentación | VCC     | VSYS (Pin 39)       |
+| Datos        | DATA  | GP15 (Pin 20)      |
 | Tierra       | GND    | GND (Pin 38)       |
 
 
