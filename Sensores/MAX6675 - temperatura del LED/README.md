@@ -12,11 +12,11 @@ Registrar esta temperatura directamente sobre o cerca del LED resulta crucial pa
 
 | Conexiones | MAX6675       | Raspberry Pi Pico |
 |:------------|:-------------|:-----------------|
-| Tierra | VCC     | GND (Pin 36)       |
-| Alimentacion       | VCC | GP15 (Pin 21)      |
-| Clock      | Clock  | GND (Pin 38)       |
-| Chip Select | 
-| Data Out | SPI SO |
+| Tierra | GND    | GND (Pin 38)       |
+| Alimentacion       | VCC | VSYS (Pin 39)      |
+| Clock      | SCK  | GPIO 14 (SCK) (Pin 19)       |
+| Chip Select |CS   | GPIO 13 (CSn) (Pin  17)      | 
+| SPI SO      | SO |  GPIO 12 (Rx)   (Pin 16)  |
 
 # Imagen de las Conexiones
 
