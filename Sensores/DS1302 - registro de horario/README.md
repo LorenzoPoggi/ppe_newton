@@ -14,11 +14,11 @@ Además, contar con una referencia temporal ayuda a documentar mejor los experim
 
 | Conexiones       | DS1302 | Raspberry Pi Pico |
 | :--------------- | :----- | :---------------- |
-| Alimentación     | VCC    | 3.3V (Pin 36)     |
+| Alimentación     | VCC    | VSYS (Pin 39)     |
 | Tierra           | GND    | GND (Pin 38)      |
-| Reloj (SCLK)     | SCLK   | GPIO (ej: GP2)    |
-| Datos (I/O)      | I/O    | GPIO (ej: GP3)    |
-| Chip Enable (CE) | CE     | GPIO (ej: GP4)    |
+| Reloj (CLK)     | CLK     | GPIO 18 (Pin 24)  |
+| Datos (DAT)     | DAT     | GPIO 17 (Pin 22)  |
+| RST              | RST    | GPIO  16 (Pin 21)  |
 
 # Imagen de las Conexiones 📱
 
