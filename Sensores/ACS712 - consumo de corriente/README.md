@@ -18,9 +18,9 @@ Al correlacionar estos datos con la temperatura y humedad (DHT11), temperatura p
 
 | Conexiones     | ACS712  | Raspberry Pi Pico |
 | :------------- | :------ | :---------------- |
-| Alimentación   | VCC     | 5V (Pin 40)       |
-| Tierra         | GND     | GND (Pin 38)      |
-| Salida analógica | OUT   | GP26 (ADC0)       |
+| Alimentación   | VCC     | 3V (Pin 36)       |
+| Tierra         | GND     | GND (Pin 23)      |
+| Salida analógica | OUT   | GP26 (ADC0) (pin 31)       |
 
 # Imagen del sensor
 
