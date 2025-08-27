@@ -13,12 +13,12 @@ Tras el periodo de medición, los datos son extraídos y procesados para generar
 
 | Conexiones        | MicroSD Module | Raspberry Pi Pico |
 | :---------------- | :------------- | :---------------- |
-| Alimentación      | VCC            | 5V (Pin 40)       |
+| Alimentación      | VCC            | VSYS (Pin 39)       |
 | Tierra            | GND            | GND (Pin 38)      |
-| Datos de salida   | MISO           | GP16 (SPI0 RX)    |
-| Datos de entrada  | MOSI           | GP19 (SPI0 TX)    |
-| Reloj SPI         | SCK            | GP18 (SPI0 SCK)   |
-| Selección de chip | CS             | GP17 (SPI0 CSn)   |
+| Datos de salida   | MISO           | GP4 (SPI0 RX) (Pin 6)   |
+| Datos de entrada  | MOSI           | GP3 (SPI0 TX) (Pin 5)   |
+| Reloj SPI         | SCK            | GP2 (SPI0 SCK) (Pin 4) |
+| Selección de chip | CS             | GP5 (SPI0 CSn)  (Pin 7) |
 
 # Imagen del Adaptador 
 
