@@ -14,14 +14,14 @@
 | Chip Select |CS   | GPIO 13 (CSn) (Pin  17)      | 
 | SPI SO      | SO |  GPIO 12 (Rx)   (Pin 16)  |
 
-| Conexiones        | MicroSD | Raspberry Pi Pico |
-| :---------------- | :------ | :---------------- |
-| Alimentación      | VCC     | VSYS (Pin 39)     |
-| Tierra            | GND     | GND (Pin 38)      |
+| Conexiones        | MicroSD | Raspberry Pi Pico|
+| :---------------- | :------ | :---------------|
+| Alimentación      | VCC     | VSYS (Pin 39)   |
+| Tierra            | GND     | GND (Pin 38)    |
 | Datos de salida   | MISO    | GP4 (SPI0 RX) (Pin 6)|
-| Datos de entrada  | MOSI    | GP3 (SPI0 TX) (Pin 5) |
-| Reloj SPI         | SCK     | GP2 (SPI0 SCK) (Pin 4) |
-| Selección de chip | CS      | GP5 (SPI0 CSn)  (Pin 7) |
+| Datos de entrada  | MOSI    | GP3 (SPI0 TX) (Pin 5)|
+| Reloj SPI         | SCK     | GP2 (SPI0 SCK) (Pin 4)|
+| Selección de chip | CS      | GP5 (SPI0 CSn)  (Pin 7)|
 
 | Conexiones       | DS1302 | Raspberry Pi Pico |
 | :--------------- | :----- | :---------------- |
